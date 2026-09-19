@@ -1,0 +1,51 @@
+ProductKey,ProductID,ProductName,Category
+1,1000,Washing Machine,Home Appliances
+2,1001,Refrigerator,Home Appliances
+3,1002,Blender,Home Appliances
+4,1003,Microwave,Home Appliances
+5,1004,Vacuum Cleaner,Home Appliances
+6,1005,Sofa,Furniture
+7,1006,Table,Furniture
+8,1007,Chair,Furniture
+9,1008,Bed,Furniture
+10,1009,Cupboard,Furniture
+11,1010,Laptop,Electronics
+12,1011,Smartphone,Electronics
+13,1012,Headphones,Electronics
+14,1013,Tablet,Electronics
+15,1014,Camera,Electronics
+16,1015,Smartwatch,Electronics
+17,1016,Bluetooth Speaker,Electronics
+18,1017,TV,Electronics
+19,1018,Monitor,Electronics
+20,1019,Printer,Electronics
+21,1020,Keyboard,Electronics
+22,1021,Mouse,Electronics
+23,1022,Game Console,Electronics
+24,1023,Smart Home Device,Electronics
+25,1024,External Hard Drive,Electronics
+26,1025,Webcam,Electronics
+27,1026,Projector,Electronics
+28,1027,Drone,Electronics
+29,1028,VR Headset,Electronics
+30,1029,Smart Glasses,Electronics
+31,1030,Action Figure,Toys
+32,1031,Board Game,Toys
+33,1032,Doll,Toys
+34,1033,Puzzle,Toys
+35,1034,Lego Set,Toys
+36,1035,Toy Car,Toys
+37,1036,Building Blocks,Toys
+38,1037,Stuffed Animal,Toys
+39,1038,Play-Doh,Toys
+40,1039,Kite,Toys
+41,1040,RC Car,Toys
+42,1041,Toy Train,Toys
+43,1042,Magic Kit,Toys
+44,1043,Marbles,Toys
+45,1044,Barbie Doll,Toys
+46,1045,Toy Kitchen Set,Toys
+47,1046,Bicycle,Toys
+48,1047,Swing,Toys
+49,1048,Educational Game,Toys
+50,1049,Jigsaw Puzzle,Toys
