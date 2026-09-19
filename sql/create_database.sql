@@ -1,7 +1,7 @@
--- ============================================================
+
 -- RETAIL SALES & CUSTOMER INSIGHTS
 -- DATA WAREHOUSE CREATION SCRIPT
--- ============================================================
+
 
 -- Create database
 CREATE DATABASE IF NOT EXISTS retail_dw;
@@ -10,9 +10,9 @@ CREATE DATABASE IF NOT EXISTS retail_dw;
 USE retail_dw;
 
 
--- ============================================================
+
 -- 1. CUSTOMER DIMENSION
--- ============================================================
+
 
 CREATE TABLE IF NOT EXISTS dim_customer (
     CustomerKey INT PRIMARY KEY,
@@ -24,9 +24,9 @@ CREATE TABLE IF NOT EXISTS dim_customer (
 );
 
 
--- ============================================================
+
 -- 2. PRODUCT DIMENSION
--- ============================================================
+
 
 CREATE TABLE IF NOT EXISTS dim_product (
     ProductKey INT PRIMARY KEY,
@@ -36,9 +36,9 @@ CREATE TABLE IF NOT EXISTS dim_product (
 );
 
 
--- ============================================================
+
 -- 3. DATE DIMENSION
--- ============================================================
+
 
 CREATE TABLE IF NOT EXISTS dim_date (
     DateKey INT PRIMARY KEY,
@@ -51,9 +51,9 @@ CREATE TABLE IF NOT EXISTS dim_date (
 );
 
 
--- ============================================================
+
 -- 4. FACT SALES TABLE
--- ============================================================
+
 
 CREATE TABLE IF NOT EXISTS fact_sales (
     SaleID VARCHAR(50) PRIMARY KEY,
@@ -78,9 +78,9 @@ CREATE TABLE IF NOT EXISTS fact_sales (
 );
 
 
--- ============================================================
+
 -- 5. INDEXES
--- ============================================================
+
 
 CREATE INDEX idx_fact_product
 ON fact_sales(ProductKey);
@@ -91,9 +91,5 @@ ON fact_sales(CustomerKey);
 CREATE INDEX idx_fact_date
 ON fact_sales(DateKey);
 
-
--- ============================================================
--- DATABASE CHECK
--- ============================================================
 
 SHOW TABLES;
